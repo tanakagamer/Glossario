@@ -44,6 +44,7 @@ body {
 .retangulo1 {
   /* Rectangle 3 (Stroke) */
 
+  box-sizing: border-box;
   position: absolute;
   width: 326px;
   height: 49px;
@@ -54,9 +55,7 @@ body {
   border-radius: 4px;
 }
 
-#Link_1 {
-  /* Link 1 */
-
+a {
   position: absolute;
   width: 47px;
   height: 24px;
@@ -74,7 +73,6 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
   color: #bb99dd;
 }
 
@@ -90,28 +88,6 @@ body {
   border: 2px solid #bb99dd;
   border-radius: 4px;
 }
-
-#Link_2 {
-  position: absolute;
-  width: 47px;
-  height: 24px;
-  left: 697px;
-  top: 498px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #bb99dd;
-}
-
 .retangulo3 {
   box-sizing: border-box;
 
@@ -124,29 +100,6 @@ body {
   border: 2px solid #bb99dd;
   border-radius: 4px;
 }
-
-#Link_3 {
-  position: absolute;
-  width: 326px;
-  height: 24px;
-  left: 558px;
-  top: 628px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #bb99dd;
-}
-
 .retangulo4 {
   box-sizing: border-box;
 
@@ -160,24 +113,50 @@ body {
   border-radius: 4px;
 }
 
-#Link_4 {
+.Group {
   position: absolute;
-  width: 326px;
+  width: 236px;
   height: 24px;
-  left: 558px;
-  top: 693px;
+  left: 601px;
+  top: 798px;
+}
 
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
+.twitter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 601px;
+  top: 798px;
+}
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
+.twitch {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 654px;
+  top: 798px;
+}
 
-  color: #bb99dd;
+.instagram_icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 707px;
+  top: 798px;
+}
+
+.linkedin {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 760px;
+  top: 798px;
+}
+
+.github {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 813px;
+  top: 798px;
 }
